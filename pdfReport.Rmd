@@ -11,7 +11,6 @@ bibliographystyle: IEEEtran
 
 ```{r setup, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
-require("tidyverse")
 require("tinytex")
 ```
 
@@ -155,3 +154,59 @@ print(
 It is visible that all data frames share almost the same list of countries divided by State. Recovered cases data frame does not include Canada as a state-divided country.This requires a deeper understanding of the State structure for each country before merging them as a single country.
 
 # Data Transformation
+
+From the data frames structure depicted through the data exploration phase, we have time series organized column-wise. Such format is quite handy for non-structured databases. In our case the structure shortage comes from the presence of states in some of the countries.
+
+Let's start with exploring the names structure of some of the timestamp columns. Having them in **integer** type column helps us filtering data. Taking a random sample of column names of the timestamp, it can be noticed the way timestamps are stored. 
+
+```{r sample_timestamp_colnames, echo=FALSE}
+source("RFunctions/DataExploration.R")
+
+get_df_columns_by_type(df_positives_raw, "integer") %>%
+  sample(3)
+```
+
+Dates are dot separated and include a **X** prefix that can be omitted to parse dates from **string** format to a manageable format.
+
+```{r filter_timestamp_colnames, echo=FALSE}
+source("RFunctions/DataTransformation.R")
+
+df_positives <- rename_df_timestamp_colums(df_positives_raw)
+df_deceases <- rename_df_timestamp_colums(df_deceases_raw)
+df_recovered <- rename_df_timestamp_colums(df_recovered_raw)
+as_tibble(df_positives[1:5, c(2,200,201,202)])
+```
+
+New format avoids unnecessary characters and column names can be called more easily.
+
+Additional data preprocessing techniques can be used to manipulate data until the desired shape. Yet to be mentioned, that data cleaning is to be performed. So the current state of the dataset will be very likely to have data quality issues. 
+
+# Exploratory plots
+
+For a quick plot, let's show the last known state of recovered, deceased and recovered cases.
+
+```{r add_isocodes, echo=TRUE}
+source("RFunctions/PlotData.R")
+
+df_positives <- add_country_code_to_df(df_positives)
+df_deceases <- add_country_code_to_df(df_deceases)
+df_recovered <- add_country_code_to_df(df_recovered)
+```
+
+Here we perform a pretty fast aggregation.Highlighting the fact that results are merely demonstrative and still lack a proper data quality assurance and aggregation for countries with states.
+
+```{r sum_states, echo=TRUE}
+source("RFunctions/DataTransformation.R")
+
+df_positives <- sum_up_countries(df_positives)
+df_deceases <- sum_up_countries(df_deceases)
+df_recovered <- sum_up_countries(df_recovered)
+```
+
+Finally. Make a plot of confirmed cases by 2/10/2022
+
+```{r plot_confirmed_recovered, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+source("RFunctions/PlotData.R")
+world_plot(df_positives, "2.10.22")
+```
+

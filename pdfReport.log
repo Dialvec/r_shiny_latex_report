@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 10:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 14:58
 entering extended mode
 **./pdfReport.tex
 (pdfReport.tex
@@ -571,24 +571,24 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 \openout1 = `pdfReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
-LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
@@ -644,7 +644,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 96.
+Package hyperref Info: Link coloring OFF on input line 109.
 ("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (C:\Users\dagge\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
@@ -656,17 +656,17 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 96.
-LaTeX Info: Redefining \pageref on input line 96.
-LaTeX Info: Redefining \nameref on input line 96.
-LaTeX Info: Redefining \microtypecontext on input line 96.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \microtypecontext on input line 109.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 96.
+LaTeX Info: Redefining \showhyphens on input line 109.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -679,165 +679,185 @@ Package microtype Info: Loading generic protrusion settings for font family
 \c@pagesLTS.current.local.arabic=\count304
 
 LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 98.
+(Font)              using `T1/lmss/b/n' instead on input line 111.
 
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <25> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 98.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 111.
 
-Package xcolor Warning: Incompatible color definition on input line 98.
+Package xcolor Warning: Incompatible color definition on input line 111.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-8.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+11.
 ("C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (C:\Users\dagge\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-8.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+11.
 ("C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-98.
+111.
 ("C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-98.
+111.
 ("C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 98.
+(Font)              <10> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 98.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 98.
+(Font)              <5> on input line 111.
 (C:\Users\dagge\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\dagge\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-Package xcolor Warning: Incompatible color definition on input line 98.
+Package xcolor Warning: Incompatible color definition on input line 111.
 
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-114.
+127.
 ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-31.
+44.
 ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 132.
-
-Package xcolor Warning: Incompatible color definition on input line 144.
-
-
-Package xcolor Warning: Incompatible color definition on input line 150.
-
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 145.
 
 Package xcolor Warning: Incompatible color definition on input line 157.
 
 
-Package xcolor Warning: Incompatible color definition on input line 168.
+Package xcolor Warning: Incompatible color definition on input line 163.
 
 
-Package xcolor Warning: Incompatible color definition on input line 179.
+Package xcolor Warning: Incompatible color definition on input line 170.
 
 
-Package xcolor Warning: Incompatible color definition on input line 197.
+Package xcolor Warning: Incompatible color definition on input line 181.
+
+
+Package xcolor Warning: Incompatible color definition on input line 192.
+
+
+Package xcolor Warning: Incompatible color definition on input line 210.
 
 <head-banner.png, id=8, 2367.84625pt x 336.25626pt>
 File: head-banner.png Graphic file (type png)
 <use head-banner.png>
-Package pdftex.def Info: head-banner.png  used on input line 252.
-(pdftex.def)             Requested size: 512.14963pt x 72.7298pt.
+Package pdftex.def Info: head-banner.png  used on input line 265.
+(pdftex.def)             Requested size: 512.14812pt x 72.7298pt.
 
-Package xcolor Warning: Incompatible color definition on input line 252.
+Package xcolor Warning: Incompatible color definition on input line 265.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 252.
+(Font)              <8> on input line 265.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 252.
+(Font)              <6> on input line 265.
 [1{C:/Users/dagge/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
  <./head-banner.png>]
 
-Package xcolor Warning: Incompatible color definition on input line 288.
+Package xcolor Warning: Incompatible color definition on input line 301.
 
 
-Package xcolor Warning: Incompatible color definition on input line 295.
+Package xcolor Warning: Incompatible color definition on input line 308.
 
 
-Package xcolor Warning: Incompatible color definition on input line 305.
+Package xcolor Warning: Incompatible color definition on input line 318.
 
 
-Package xcolor Warning: Incompatible color definition on input line 315.
+Package xcolor Warning: Incompatible color definition on input line 328.
 
 
-Package xcolor Warning: Incompatible color definition on input line 332.
+Package xcolor Warning: Incompatible color definition on input line 345.
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
-[]\T1/lmtt/m/n/10 ##        positives       deceases      recovered[] 
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
+[]\T1/lmtt/m/n/10 ##        Positives       Deceases      Recovered[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 1      Australia      Australia      Australia[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 2         Canada         Canada          China[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 3          China          China        Denmark[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 4        Denmark        Denmark         France[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 5         France         France    Netherlands[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 6    Netherlands    Netherlands    New Zealand[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 7    New Zealand    New Zealand United Kingdom[] 
  []
 
 
-Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 357--357
 []\T1/lmtt/m/n/10 ## 8 United Kingdom United Kingdom      Australia[] 
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 353.
+Package xcolor Warning: Incompatible color definition on input line 366.
 
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+395.
+("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmtt.fd"
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+
+Package xcolor Warning: Incompatible color definition on input line 424.
+
+[2]
+<pdfReport_files/figure-latex/plot_confirmed_recovered-1.pdf, id=58, 469.755pt 
+x 325.215pt>
+File: pdfReport_files/figure-latex/plot_confirmed_recovered-1.pdf Graphic file 
+(type pdf)
+<use pdfReport_files/figure-latex/plot_confirmed_recovered-1.pdf>
+Package pdftex.def Info: pdfReport_files/figure-latex/plot_confirmed_recovered-
+1.pdf  used on input line 437.
+(pdftex.def)             Requested size: 241.8441pt x 167.43053pt.
 
 AED: pageslts setting LastPage 
 
-Package xcolor Warning: Incompatible color definition on input line 355.
+Package xcolor Warning: Incompatible color definition on input line 439.
 
-[2]
+[3 <./pdfReport_files/figure-latex/plot_confirmed_recovered-1.pdf>]
 \c@pagesLTS.arabic.1.local.count=\count305
 
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -845,20 +865,20 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (pdfReport.aux) ) 
 Here is how much of TeX's memory you used:
- 16544 strings out of 479697
- 250830 string characters out of 2877010
- 638659 words of memory out of 3000000
- 33216 multiletter control sequences out of 15000+200000
- 463889 words of font info for 117 fonts, out of 3000000 for 9000
+ 16606 strings out of 479697
+ 252090 string characters out of 2877010
+ 636696 words of memory out of 3000000
+ 33259 multiletter control sequences out of 15000+200000
+ 464699 words of font info for 123 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,17n,98p,1200b,909s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Prog
-ram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/t
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Pro
+gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX/fonts/t
 ype1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.
 pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/
 MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX/fonts/type1/
@@ -866,9 +886,9 @@ public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files/
 MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/lm/lmtt10.pfb>
-Output written on pdfReport.pdf (2 pages, 342992 bytes).
+Output written on pdfReport.pdf (3 pages, 415392 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 39014 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 149 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 39027 words of extra memory for PDF output out of 42996 (max. 10000000)
 
