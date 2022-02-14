@@ -81,14 +81,9 @@
   \fancyfoot[C,R]{}%
   \fancyfoot[L]{\raisebox{10pt}{\begin{minipage}{\textwidth}\raggedright
         \color{elbioimp@blue}\footnotesize 
-%        \textcopyright~\elbioimp@year~Author(s). 
-%        This is an open access article licensed under the
-%        Creative Commons Attribution-NonCommercial-NoDerivs License 
-%        (\url{http://creativecommons.org/licenses/by-nc-nd/3.0/}).
         \textcopyright~\elbioimp@year~Author(s).
         This is an open access article licensed under the
-        Creative Commons Attribution License~4.0. 
-        (\url{http://creativecommons.org/licenses/by/4.0/}).
+        Creative Commons Attribution License~4.0.
       \end{minipage}}}%
 }
 
@@ -98,9 +93,11 @@
 \RequirePackage[tiny,noindentafter]{titlesec}
 \titleformat{\section}{\bf\color{elbioimp@blue}}{\thesection}{0em}{}
 \titlespacing{\section}{0pt}{*2}{*0}
-\titleformat{\subsection}{\sl\color{elbioimp@blue}}{\thesubsection}{0em}{}
-\titlespacing{\subsection}{0pt}{*1.4}{*0}
-\titlespacing{\paragraph}{0pt}{*1}{*0}
+\titleformat{\subsection}{\bf\color{elbioimp@blue}}{\thesubsection}{0em}{}
+\titlespacing{\subsection}{10pt}{*1.5}{*0}
+\titleformat{\subsubsection}{\sl\color{elbioimp@blue}}{\thesubsubsection}{0em}{}
+\titlespacing{\subsubsection}{5pt}{*1}{*0}
+\titlespacing{\paragraph}{2pt}{*1}{*0}
 \setcounter{secnumdepth}{-1}
 
 %% Redefine \maketitle:
@@ -113,29 +110,23 @@
   \setcounter{page}{\elbioimp@firstpage}
   \twocolumn[%
     \vspace{1.2cm}
-    \begin{flushright}
-      \color{elbioimp@blue}\small
-      \textbf{J Electr Bioimp, vol.~\elbioimp@vol, 
-        pp.~\elbioimp@firstpage--\lastpageref{VeryLastPage}, \elbioimp@year}\\
-      Received \elbioimp@rec~/ published \elbioimp@publ%
-      \ifthenelse{\equal{\elbioimp@doi}{0}}{}{\\
-        \url{https://doi.org/10.2478/joeb-\elbioimp@doi}}
-    \end{flushright}
-    \vspace{3mm}
     \begin{NoHyper}
       \begin{minipage}{0.7\textwidth}
         \raggedright 
-        {\fontsize{25}{30pt}\fontseries{sb}\selectfont
+        {\fontsize{25}{20pt}\fontseries{sb}\selectfont
           \color{elbioimp@blue}\@title\par}
+      \renewcommand{\and}{, }
+      \def \@makefntext##1{\@thefnmark. \textit{##1}}
+      \renewcommand{\footnoterule}{}
+      \renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+    \end{minipage}
+  \end{NoHyper}
 
-        \bigskip
-        \renewcommand{\and}{, }
-        \def \@makefntext##1{\@thefnmark. \textit{##1}}
-        \renewcommand{\footnoterule}{}
-        \renewcommand{\thempfootnote}{\arabic{mpfootnote}}
-        \@author
-      \end{minipage}
-    \end{NoHyper}
+  \begin{flushright}
+    \color{elbioimp@blue}\small
+    \textbf{Created by \@author}\\
+    Publication date: \@date
+  \end{flushright}
     \elbioimp@rule{\textwidth}
   ]
   \thispagestyle{plain}

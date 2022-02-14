@@ -5,11 +5,12 @@ date: "11/2/2022"
 output: 
   pdf_document:
     template: LateXFiles/template.tex
-documentclass: LateXFiles/elbioimp2
+documentclass: elbioimp2
 #bibliographystyle: IEEEtran
 ---
 
 ```{r setup, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 require("tidyverse")
 require("tinytex")
 ```

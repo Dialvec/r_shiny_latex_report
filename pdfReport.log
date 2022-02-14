@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 01:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 02:12
 entering extended mode
 **./pdfReport.tex
 (pdfReport.tex
@@ -678,6 +678,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 \c@pagesLTS.double.arabic=\count303
 \c@pagesLTS.current.local.arabic=\count304
 
+LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
+(Font)              using `T1/lmss/b/n' instead on input line 98.
+
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <25> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 98.
+
 Package xcolor Warning: Incompatible color definition on input line 98.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
@@ -704,9 +710,9 @@ LaTeX Font Info:    Trying to load font information for OMX+lmex on input line
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 98.
+(Font)              <10> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 98.
+(Font)              <7> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 98.
 (C:\Users\dagge\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
@@ -715,18 +721,8 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-LaTeX Font Warning: Font shape `T1/lmss/sb/n' undefined
-(Font)              using `T1/lmss/b/n' instead on input line 98.
-
-LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <25> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 98.
-
 Package xcolor Warning: Incompatible color definition on input line 98.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 98.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 98.
 
 Package xcolor Warning: Incompatible color definition on input line 100.
 
@@ -745,23 +741,30 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 
 Package xcolor Warning: Incompatible color definition on input line 145.
 
-<head-banner.png, id=9, 2367.84625pt x 336.25626pt>
+
+Package xcolor Warning: Incompatible color definition on input line 151.
+
+
+Package xcolor Warning: Incompatible color definition on input line 188.
+
+<head-banner.png, id=7, 2367.84625pt x 336.25626pt>
 File: head-banner.png Graphic file (type png)
 <use head-banner.png>
-Package pdftex.def Info: head-banner.png  used on input line 256.
+Package pdftex.def Info: head-banner.png  used on input line 265.
 (pdftex.def)             Requested size: 512.14963pt x 72.7298pt.
 
-Package xcolor Warning: Incompatible color definition on input line 256.
+Package xcolor Warning: Incompatible color definition on input line 265.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 256.
 [1{C:/Users/dagge/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
  <./head-banner.png>] 
 AED: pageslts setting LastPage 
 
-Package xcolor Warning: Incompatible color definition on input line 268.
+Overfull \vbox (1.34723pt too high) has occurred while \output is active []
+
+
+Package xcolor Warning: Incompatible color definition on input line 273.
 
 [2]
 \c@pagesLTS.arabic.1.local.count=\count305
@@ -776,13 +779,13 @@ Package pageslts Info: Total number of pages is even.
 
 (pdfReport.aux) ) 
 Here is how much of TeX's memory you used:
- 16509 strings out of 479697
- 250313 string characters out of 2877010
- 625858 words of memory out of 3000000
- 33209 multiletter control sequences out of 15000+200000
- 455555 words of font info for 107 fonts, out of 3000000 for 9000
+ 16451 strings out of 479697
+ 249507 string characters out of 2877010
+ 625645 words of memory out of 3000000
+ 33173 multiletter control sequences out of 15000+200000
+ 443107 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,16n,98p,1200b,903s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 93i,16n,98p,1200b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Prog
 ram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/t
 ype1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.
@@ -791,9 +794,9 @@ MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/
 public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb
 ><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/Mi
 KTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on pdfReport.pdf (2 pages, 310680 bytes).
+Output written on pdfReport.pdf (2 pages, 304507 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
- 32806 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 26662 words of extra memory for PDF output out of 29859 (max. 10000000)
 
