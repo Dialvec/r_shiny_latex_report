@@ -1,3 +1,5 @@
+require(tidyverse)
+
 describe_df <- function(df){
   if(!is.data.frame(df)) stop("Given argument must me a data frame")
   writeLines(
@@ -65,4 +67,51 @@ print_df_columns_by_type <- function(df, type){
       get_df_columns_by_type(df, type)
     )
   )
+}
+
+
+df_get_empty_count_df <- function(df){
+  na_count <- sapply(df, function(y) sum(length(which(is.na(y) | y == "" ))))
+  na_count <- data.frame(na_count, stringsAsFactors = FALSE)
+  na_count <- filter(na_count, na_count>0) 
+
+  return(na_count)
+}
+
+
+print_empty_count_df <- function(df){
+  print(df_get_empty_count_df(df))
+}
+
+
+df_get_non_empty_state_countries <- function(df){
+  df_output <- df %>%
+    subset(subset = Province.State != "", select = Country.Region) %>%
+    unique()
+  return( df_output )
+}
+
+
+array_get_non_empty_state_countries <- function(df){
+  array_output <- df %>% 
+    df_get_non_empty_state_countries() %>%
+    unlist( use.names = FALSE) 
+  return( array_output )
+}
+
+
+print_non_empty_state_countries <- function(df){
+  writeLines(
+    c(
+      "Countries that contain States:",
+      array_get_non_empty_state_countries(df)
+    )
+  )
+}
+
+remove_duplicated_elements_columnwise <- function(df){
+  for(i in 1:ncol(df)){
+    df[,i][duplicated(df[,i])] <- NA 
   }
+  return(df)
+}

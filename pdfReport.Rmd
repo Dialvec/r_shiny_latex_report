@@ -1,12 +1,12 @@
 ---
 title: "Sample Report"
 author: "Diego Velandia"
-date: "11/2/2022"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
 output: 
   pdf_document:
     template: LateXFiles/template.tex
-documentclass: elbioimp2
-#bibliographystyle: IEEEtran
+documentclass: LateXFiles/elbioimp2
+bibliographystyle: IEEEtran
 ---
 
 ```{r setup, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
@@ -18,7 +18,7 @@ require("tinytex")
 ```{r, include=FALSE}
 options(tinytex.verbose = TRUE)
 ```
-
+Code is available for free access through: https://github.com/Dialvec/r_shiny_latex_report
 # Introduction
 Sample datasets used as test subject for the present report describes evolution of confirmed positive cases, deceases and recovered patients along the current Covid-19 epidemics. Datasets are publicly available thanks to the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.
 
@@ -40,13 +40,15 @@ df_recovered_raw = get_recovered_cases_df()
 
 R's source() function allows remote calling of functions, parameters and from .R and .Rmd
 
-## Data Exploration
+# Data Exploration
 
 Each dataset comes from a separate source. Therefore we begin by exploring the structure of each dataset.
 
-### Shape and variable type
+## Shape and variable type
 
-#### Positive Cases
+A simple function to describe the size of the data frame can tell us valuable information regarding how to analize and understand the data frame structure.\\
+
+### Positive Cases
 
 ```{r positive_cases_description, echo=FALSE}
 source("RFunctions/DataExploration.R")
@@ -54,7 +56,7 @@ source("RFunctions/DataExploration.R")
 describe_df(df_positives_raw)
 ```
 
-#### Deceased Cases
+### Deceased Cases
 
 ```{r deceased_cases_description, echo=FALSE}
 source("RFunctions/DataExploration.R")
@@ -62,7 +64,7 @@ source("RFunctions/DataExploration.R")
 describe_df(df_deceases_raw)
 ```
 
-#### Recovered Cases
+### Recovered Cases
 
 ```{r recovered_cases_description, echo=FALSE}
 source("RFunctions/DataExploration.R")
@@ -70,7 +72,9 @@ source("RFunctions/DataExploration.R")
 describe_df(df_recovered_raw)
 ```
 
-### Character and numeric type columns
+I can be evidenced that all Datasets contain an amount of columns that can not be easily displayed. Using pre built descriptive methods like summary(df) might be overwhelming due to the high amount of columns in each data frame. Let's begin with the less common data types within the datasets.\\ 
+
+## Character and numeric type columns
 
 Since all Datasets share a common property of having 2 character and 2 numeric columns, it is possible that all Datasets have the same 4 columns (fields). We can verify these two columns on each case to verify the hypothesis and, then, start exploring the integer type columns.
 
@@ -101,3 +105,53 @@ print("---------------------------")
 print("From recovered cases dataset")
 print_df_columns_by_type(df_recovered_raw, vartype)
 ```
+
+From this structure we have two valuable insights: Geographic identifiers are suitable candidates as key for data joining; and time series are stored column-wise for each country and state, which are represented over rows.
+
+## Data completion
+
+To verify data completion, we can use a function to verify either if a data frame column contains null values or empty strings. Keep in mind that empty strings are not considered as **na** values.
+
+### Positive Cases
+
+```{r na_count_positives, echo=FALSE}
+source("RFunctions/DataExploration.R")
+print_empty_count_df(df_positives_raw)
+```
+
+
+### Deceased Cases
+
+```{r na_count_deceases, echo=FALSE}
+source("RFunctions/DataExploration.R")
+print_empty_count_df(df_deceases_raw)
+```
+
+### Recovered Cases
+
+```{r na_count_recovered, echo=FALSE}
+source("RFunctions/DataExploration.R")
+print_empty_count_df(df_recovered_raw)
+```
+
+As far as we have obtained insights from the data, **Province.State** is not available for all countries, which adds an extra challenge of analyze and properly aggregate countries with States or Provinces in order to standardize the geographic basis.
+
+
+### Countries with **Province.State** variable not empty
+
+```{r non_empty_state_positives, echo=FALSE}
+source("RFunctions/DataExploration.R")
+print(
+  cbind(
+     df_positives_raw %>% array_get_non_empty_state_countries(),
+     df_deceases_raw %>% array_get_non_empty_state_countries() ,
+     df_recovered_raw %>% array_get_non_empty_state_countries()
+  ) %>% 
+    data.frame(stringsAsFactors = FALSE) %>%
+    `names<-`(c("Positives", "Deceases", "Recovered"))
+)
+```
+
+It is visible that all data frames share almost the same list of countries divided by State. Recovered cases data frame does not include Canada as a state-divided country.This requires a deeper understanding of the State structure for each country before merging them as a single country.
+
+# Data Transformation

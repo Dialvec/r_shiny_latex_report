@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.7.2)  14 FEB 2022 10:29
 entering extended mode
 **./pdfReport.tex
 (pdfReport.tex
@@ -723,48 +723,119 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 Package xcolor Warning: Incompatible color definition on input line 98.
 
-
-Package xcolor Warning: Incompatible color definition on input line 100.
-
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-115.
+114.
 ("C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd"
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-32.
+31.
 ("C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 133.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 132.
 
-Package xcolor Warning: Incompatible color definition on input line 145.
-
-
-Package xcolor Warning: Incompatible color definition on input line 151.
+Package xcolor Warning: Incompatible color definition on input line 144.
 
 
-Package xcolor Warning: Incompatible color definition on input line 188.
+Package xcolor Warning: Incompatible color definition on input line 150.
 
-<head-banner.png, id=7, 2367.84625pt x 336.25626pt>
+
+Package xcolor Warning: Incompatible color definition on input line 157.
+
+
+Package xcolor Warning: Incompatible color definition on input line 168.
+
+
+Package xcolor Warning: Incompatible color definition on input line 179.
+
+
+Package xcolor Warning: Incompatible color definition on input line 197.
+
+<head-banner.png, id=8, 2367.84625pt x 336.25626pt>
 File: head-banner.png Graphic file (type png)
 <use head-banner.png>
-Package pdftex.def Info: head-banner.png  used on input line 265.
+Package pdftex.def Info: head-banner.png  used on input line 252.
 (pdftex.def)             Requested size: 512.14963pt x 72.7298pt.
 
-Package xcolor Warning: Incompatible color definition on input line 265.
+Package xcolor Warning: Incompatible color definition on input line 252.
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 252.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 252.
 [1{C:/Users/dagge/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
- <./head-banner.png>] 
+ <./head-banner.png>]
+
+Package xcolor Warning: Incompatible color definition on input line 288.
+
+
+Package xcolor Warning: Incompatible color definition on input line 295.
+
+
+Package xcolor Warning: Incompatible color definition on input line 305.
+
+
+Package xcolor Warning: Incompatible color definition on input line 315.
+
+
+Package xcolor Warning: Incompatible color definition on input line 332.
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ##        positives       deceases      recovered[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 1      Australia      Australia      Australia[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 2         Canada         Canada          China[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 3          China          China        Denmark[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 4        Denmark        Denmark         France[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 5         France         France    Netherlands[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 6    Netherlands    Netherlands    New Zealand[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 7    New Zealand    New Zealand United Kingdom[] 
+ []
+
+
+Overfull \hbox (15.40082pt too wide) in paragraph at lines 344--344
+[]\T1/lmtt/m/n/10 ## 8 United Kingdom United Kingdom      Australia[] 
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 353.
+
+
 AED: pageslts setting LastPage 
 
-Overfull \vbox (1.34723pt too high) has occurred while \output is active []
-
-
-Package xcolor Warning: Incompatible color definition on input line 273.
+Package xcolor Warning: Incompatible color definition on input line 355.
 
 [2]
 \c@pagesLTS.arabic.1.local.count=\count305
@@ -779,24 +850,25 @@ Package pageslts Info: Total number of pages is even.
 
 (pdfReport.aux) ) 
 Here is how much of TeX's memory you used:
- 16451 strings out of 479697
- 249507 string characters out of 2877010
- 625645 words of memory out of 3000000
- 33173 multiletter control sequences out of 15000+200000
- 443107 words of font info for 86 fonts, out of 3000000 for 9000
+ 16544 strings out of 479697
+ 250830 string characters out of 2877010
+ 638659 words of memory out of 3000000
+ 33216 multiletter control sequences out of 15000+200000
+ 463889 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,16n,98p,1200b,616s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 93i,17n,98p,1200b,909s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Prog
 ram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX/fonts/t
 ype1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.
 pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmsso10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb
-><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on pdfReport.pdf (2 pages, 304507 bytes).
+MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso9.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/lm/lmtt10.pfb>
+Output written on pdfReport.pdf (2 pages, 342992 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 26662 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 39014 words of extra memory for PDF output out of 42996 (max. 10000000)
 

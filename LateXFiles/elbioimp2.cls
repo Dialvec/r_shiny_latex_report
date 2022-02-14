@@ -62,9 +62,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \setlength{\headheight}{12.5pt}
-\fancyhead[C]{\color{elbioimp@blue}\small\sl 
-  \elbioimp@shortauthor: \elbioimp@shorttitle. J Electr Bioimp, 
-  \elbioimp@vol, \elbioimp@firstpage--\lastpageref{VeryLastPage}, \elbioimp@year}
+\fancyhead[C]{\color{elbioimp@blue}\small\sl \@title, \@date }
 \fancyhead[L,R]{}
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\footskip}{40pt}
@@ -82,8 +80,8 @@
   \fancyfoot[L]{\raisebox{10pt}{\begin{minipage}{\textwidth}\raggedright
         \color{elbioimp@blue}\footnotesize 
         \textcopyright~\elbioimp@year~Author(s).
-        This is an open access article licensed under the
-        Creative Commons Attribution License~4.0.
+        This is an open access article licensed under the Creative Commons Attribution License~4.0.\\
+        Code is available for public access through: \url{https://github.com/Dialvec/r_shiny_latex_report}
       \end{minipage}}}%
 }
 
@@ -91,12 +89,12 @@
 
 %% Modify the section headers:
 \RequirePackage[tiny,noindentafter]{titlesec}
-\titleformat{\section}{\bf\color{elbioimp@blue}}{\thesection}{0em}{}
-\titlespacing{\section}{0pt}{*2}{*0}
+\titleformat{\section}{\bf\color{elbioimp@blue}\filcenter}{\thesection}{0em}{}
+\titlespacing{\section}{0pt}{*2}{*1}
 \titleformat{\subsection}{\bf\color{elbioimp@blue}}{\thesubsection}{0em}{}
-\titlespacing{\subsection}{10pt}{*1.5}{*0}
+\titlespacing{\subsection}{10pt}{*1.5}{*1}
 \titleformat{\subsubsection}{\sl\color{elbioimp@blue}}{\thesubsubsection}{0em}{}
-\titlespacing{\subsubsection}{5pt}{*1}{*0}
+\titlespacing{\subsubsection}{5pt}{*1}{*1}
 \titlespacing{\paragraph}{2pt}{*1}{*0}
 \setcounter{secnumdepth}{-1}
 
@@ -125,7 +123,7 @@
   \begin{flushright}
     \color{elbioimp@blue}\small
     \textbf{Created by \@author}\\
-    Publication date: \@date
+    Last compile date: \@date
   \end{flushright}
     \elbioimp@rule{\textwidth}
   ]
