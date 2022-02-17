@@ -1,6 +1,10 @@
-require("tidyverse")
-require("countrycode")
-require("rworldmap")
+install.packages("tidyverse")
+install.packages("countrycode")
+install.packages("rworldmap")
+
+library("tidyverse")
+library("countrycode")
+library("rworldmap")
 
 get_country_code_from_name <- function(country_name){
   countrycode(sourcevar=country_name, origin = "country.name", destination = "iso3c")
